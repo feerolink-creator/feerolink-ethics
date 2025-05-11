@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>FeeroLink Viewer - β版</title>
+  <title>FeeroLink Viewer - Final Integrated Prototype</title>
   <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
   <style>
     body { font-family: sans-serif; margin: 20px; }
@@ -14,33 +14,33 @@
 </head>
 
 <body>
-  <h2>FeeroLink Viewer - 最終統合プロトタイプ</h2>
+  <h2>FeeroLink Viewer - Final Integrated Prototype</h2>
 
   <div id="controls">
-     <label>タイトル：</label>
+     <label>Title:</label>
      <input type="text" id="title" />
-     <label>説明：</label>
+     <label>Description:</label>
      <input type="text" id="description" size="40" />
-     <label>タグ（カンマ区切り）:</label>
+     <label>Tags (comma-separated):</label>
      <input type="text" id="tags" />
-     <button onclick="addNode()">ノード追加</button>
+     <button onclick="addNode()">Add Node</button>
      <br><br>
-     <button onclick="saveMap()">保存（JSON）</button>
+     <button onclick="saveMap()">Save (JSON)</button>
      <input type="file" id="fileInput" />
-     <button onclick="loadMap()">読み込み</button>
-     <button onclick="connectByTagSimilarity()">タグ類似スコアで自動接続</button>
+     <button onclick="loadMap()">Load</button>
+     <button onclick="connectByTagSimilarity()">Auto-connect by Tag Similarity</button>
   </div>
 
   <div id="filters">
-    <strong>タグフィルター：</strong>
-    <label class="tag-option"><input type="checkbox" value="尊厳" checked onchange="filterByTags()"> 尊厳</label>
-    <label class="tag-option"><input type="checkbox" value="喪失" checked onchange="filterByTags()"> 喪失</label>
-    <label class="tag-option"><input type="checkbox" value="希望" checked onchange="filterByTags()"> 希望</label>
-    <label class="tag-option"><input type="checkbox" value="静寂" checked onchange="filterByTags()"> 静寂</label>
-    <label class="tag-option"> <input type="checkbox" value="ethics_engine" checked onchange="filterByTags()"> ethics_engine</label>
+    <strong>Tag Filter:</strong>
+    <label class="tag-option"><input type="checkbox" value="dignity" checked onchange="filterByTags()"> dignity</label>
+    <label class="tag-option"><input type="checkbox" value="loss" checked onchange="filterByTags()"> loss</label>
+    <label class="tag-option"><input type="checkbox" value="hope" checked onchange="filterByTags()"> hope</label>
+    <label class="tag-option"><input type="checkbox" value="silence" checked onchange="filterByTags()"> silence</label>
+    <label class="tag-option"><input type="checkbox" value="ethics_engine" checked onchange="filterByTags()"> ethics_engine</label>
   </div>
 
-  <div id="info">ノードをクリックすると説明が表示されます。</div>
+  <div id="info">Click a node to see its description.</div>
   <div id="cy" style="width: 100%; height: 100vh;"></div>
 
   <script>
@@ -51,10 +51,9 @@
     fetch('./dignity_layered_structure.json')
       .then(res => res.json())
       .then(data => {
-       
         tags = {};
         data.nodes.forEach(n => {
-          descriptions[n.id] = n.description || "説明なし";
+          descriptions[n.id] = n.description || "No description.";
           tags[n.id] = n.tags || [];
         });
 
@@ -70,8 +69,8 @@
               style: {
                 'label': 'data(label)',
                 'background-color': ele => {
-                  const tag = ele.data().tags?.[0];  // 最初のタグを参照
-                  return tagColors[tag] || '#dddddd'; // 該当なしは灰色
+                  const tag = ele.data().tags?.[0];
+                  return tagColors[tag] || '#dddddd';
                 },
                 'text-valign': 'center',
                 'text-halign': 'center'
@@ -94,9 +93,9 @@
 
         cy.on('tap', 'node', evt => {
           const id = evt.target.id();
-          const desc = descriptions[id] || "説明なし";
-          const tag = tags[id]?.join(", ") || "タグなし";
-          document.getElementById('info').innerText = `[${id}] ${desc}（タグ: ${tag}）`;
+          const desc = descriptions[id] || "No description.";
+          const tag = tags[id]?.join(", ") || "No tags";
+          document.getElementById('info').innerText = `[${id}] ${desc} (Tags: ${tag})`;
         });
       });
 
@@ -112,7 +111,7 @@
       const desc = document.getElementById('description').value.trim();
       const tagInput = document.getElementById('tags').value.trim();
       if (!title || cy.getElementById(title).length > 0) {
-        alert("タイトルが空か、またはすでに存在しています");
+        alert("Title is empty or already exists.");
         return;
       }
       const tagList = tagInput.split(',').map(t => t.trim());
@@ -140,7 +139,7 @@
     function loadMap() {
       const fileInput = document.getElementById('fileInput');
       const file = fileInput.files[0];
-      if (!file) return alert("ファイルを選択してください");
+      if (!file) return alert("Please select a file.");
       const reader = new FileReader();
       reader.onload = e => {
         const data = JSON.parse(e.target.result);
