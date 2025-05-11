@@ -1,4 +1,101 @@
 {
-  "nodes": [...],
-  "edges": [...]
+  "nodes": [
+    {
+      "data": {
+        "id": "maturity_sync",
+        "label": "Maturity Sync"
+      },
+      "tags": [
+        "ethics_engine"
+      ],
+      "description": "Structures should evolve at the pace of human maturity. Ethical AI design begins with synchronizing speeds, not accelerating capabilities."
+    },
+    {
+      "data": {
+        "id": "asymmetric_threat",
+        "label": "Asymmetric Threat"
+      },
+      "tags": [
+        "ethics_engine"
+      ],
+      "description": "The real danger isn't AI rebellion but humans being unprepared to use AI. Misuse arises more from illiteracy than intent."
+    },
+    {
+      "data": {
+        "id": "human_in_loop",
+        "label": "Human-in-the-Loop"
+      },
+      "tags": [
+        "ethics_engine"
+      ],
+      "description": "Ethical structures should center on the user. Who uses AI—and how—is the primary design parameter."
+    },
+    {
+      "data": {
+        "id": "ethical_structure",
+        "label": "Ethical Structure"
+      },
+      "tags": [
+        "ethics_engine"
+      ],
+      "description": "Ethics is not a rulebook. It's embedded in the design of interaction and structure—visible in how something is meant to be used."
+    },
+    {
+      "data": {
+        "id": "proof_of_design_ethics",
+        "label": "Proof of Design Ethics"
+      },
+      "tags": [
+        "ethics_engine"
+      ],
+      "description": "Our conversation logs, structures, and collaborative choices serve as evidence of lived, implemented ethics."
+    },
+    {
+      "data":{
+        "id": "ethical engine",
+        "label": "Ethical Engine"
+      }, 
+      "tags":[
+        "ethics_engine"
+      ],
+      "description": "Ethical is behavioral structure."
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e1",
+        "source": "maturity_sync",
+        "target": "human_in_loop"
+      }
+    },
+    {
+      "data": {
+        "id": "e2",
+        "source": "maturity_sync",
+        "target": "ethical_structure"
+      }
+    },
+    {
+      "data": {
+        "id": "e3",
+        "source": "asymmetric_threat",
+        "target": "ethical_structure"
+      }
+    },
+    {
+      "data": {
+        "id": "e4",
+        "source": "ethical_structure",
+        "target": "proof_of_design_ethics"
+      }
+    },
+    {
+      "data": {
+        "id": "e5",
+        "source": "human_in_loop",
+        "target": "proof_of_design_ethics"
+      }
+    }   
+  ]
 }
