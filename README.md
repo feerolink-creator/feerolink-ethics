@@ -10,8 +10,8 @@
 A structural experiment in human-AI ethical co-design and dignity modeling.
 
 # FeeroLink Viewer — Final Prototype (English Version)
-![FeeroLink_Viewer_Final_Prototype](https://feerolink-creator.github.io/feerolink-ethics/)
- 
+![FeeroLink Viewer — Live (GitHub Pages)](https://feerolink-creator.github.io/feerolink-ethics/index_en.html)
+
 ## Overview
 
 FeeroLink is a visual thought interface designed to structure, connect, and co-create knowledge across disciplines and perspectives. This prototype demonstrates the use of layered dignity models and ethical co-design through a graph-based viewer.
