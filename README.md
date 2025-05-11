@@ -1,3 +1,11 @@
+# FeeroLink Viewer
+
+**A Visual Thinking Interface for Ethical, Relational Intelligence**
+
+> 📄 [Project Overview — FeeroLink_Ethical_Overview_EN.md](./FeeroLink_Ethical_Overview_EN.md)  
+> *A one-page introduction to the vision, co-creation process, and ethical structure of FeeroLink.*
+
+
 # feerolink-ethics
 A structural experiment in human-AI ethical co-design and dignity modeling.
 
