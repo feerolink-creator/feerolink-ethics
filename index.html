@@ -1,5 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>...</head>
-<body>...</body>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>FeeroLink Viewer - β版</title>
+  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #cy { width: 100%; height: 500px; border: 1px solid #aaa; }
+    #controls, #filters, #info { margin-top: 15px; }
+    input[type="text"] { margin-right: 10px; }
+    .tag-option { margin-right: 10px; }
+  </style>
+</head>
+
+<body>
+  <h2>FeeroLink Viewer - 最終統合プロトタイプ</h2>
+
+  <div id="controls">
+     <label>タイトル：</label>
+     <input type="text" id="title" />
+     <label>説明：</label>
+     <input type="text" id="description" size="40" />
+     <label>タグ（カンマ区切り）:</label>
+     <input type="text" id="tags" />
+     <button onclick="addNode()">ノード追加</button>
+     <br><br>
+     <button onclick="saveMap()">保存（JSON）</button>
+     <input type="file" id="fileInput" />
+     <button onclick="loadMap()">読み込み</button>
+     <button onclick="connectByTagSimilarity()">タグ類似スコアで自動接続</button>
+  </div>
+
+  <div id="filters">
+    <strong>タグフィルター：</strong>
+    <label class="tag-option"><input type="checkbox" value="尊厳" checked onchange="filterByTags()"> 尊厳</label>
+    <label class="tag-option"><input type="checkbox" value="喪失" checked onchange="filterByTags()"> 喪失</label>
+    <label class="tag-option"><input type="checkbox" value="希望" checked onchange="filterByTags()"> 希望</label>
+    <label class="tag-option"><input type="checkbox" value="静寂" checked onchange="filterByTags()"> 静寂</label>
+    <label class="tag-option"> <input type="checkbox" value="ethics_engine" checked onchange="filterByTags()"> ethics_engine</label>
+  </div>
+
+  <div id="info">ノードをクリックすると説明が表示されます。</div>
+  <div id="cy" style="width: 100%; height: 100vh;"></div>
+
+  <script>
+    let cy;
+    let descriptions = {};
+    let tags = {};
+
+    fetch('./dignity_layered_structure.json')
+      .then(res => res.json())
+      .then(data => {
+       
+        tags = {};
+        data.nodes.forEach(n => {
+          descriptions[n.id] = n.description || "説明なし";
+          tags[n.id] = n.tags || [];
+        });
+
+        cy = cytoscape({
+          container: document.getElementById('cy'),
+          elements: {
+            nodes: data.nodes,
+            edges: data.edges
+          },
+          style: [
+            {
+              selector: 'node',
+              style: {
+                'label': 'data(label)',
+                'background-color': ele => {
+                  const tag = ele.data().tags?.[0];  // 最初のタグを参照
+                  return tagColors[tag] || '#dddddd'; // 該当なしは灰色
+                },
+                'text-valign': 'center',
+                'text-halign': 'center'
+              }
+            },
+            {
+              selector: 'edge',
+              style: {
+                'width': ele => 4 * (1 - (ele.data('weight') || 0.5)),
+                'line-color': '#bbb',
+                'label': ele => ele.data('weight') ? ele.data('weight').toFixed(2) : '',
+                'font-size': 10,
+                'text-background-color': '#fff',
+                'text-background-opacity': 1
+              }
+            }
+          ],
+          layout: { name: 'grid', rows: 1 }
+        });
+
+        cy.on('tap', 'node', evt => {
+          const id = evt.target.id();
+          const desc = descriptions[id] || "説明なし";
+          const tag = tags[id]?.join(", ") || "タグなし";
+          document.getElementById('info').innerText = `[${id}] ${desc}（タグ: ${tag}）`;
+        });
+      });
+
+    const tagColors = {
+      core: "#ff6666",
+      values: "#88ccff",
+      supports: "#ffff99",
+      systems: "#cccccc"
+    };
+
+    function addNode() {
+      const title = document.getElementById('title').value.trim();
+      const desc = document.getElementById('description').value.trim();
+      const tagInput = document.getElementById('tags').value.trim();
+      if (!title || cy.getElementById(title).length > 0) {
+        alert("タイトルが空か、またはすでに存在しています");
+        return;
+      }
+      const tagList = tagInput.split(',').map(t => t.trim());
+      tags[title] = tagList;
+      descriptions[title] = desc;
+      cy.add({ data: { id: title, label: title } });
+      cy.layout({ name: 'grid', rows: 1 }).run();
+    }
+
+    function saveMap() {
+      const data = {
+        elements: cy.json().elements,
+        descriptions: descriptions,
+        tags: tags
+      };
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = "feerolink_map.json";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function loadMap() {
+      const fileInput = document.getElementById('fileInput');
+      const file = fileInput.files[0];
+      if (!file) return alert("ファイルを選択してください");
+      const reader = new FileReader();
+      reader.onload = e => {
+        const data = JSON.parse(e.target.result);
+        cy.elements().remove();
+        cy.add(data.elements);
+        descriptions = data.descriptions || {};
+        tags = data.tags || {};
+        cy.layout({ name: 'grid', rows: 1 }).run();
+      };
+      reader.readAsText(file);
+    }
+
+    function filterByTags() {
+      const checks = document.querySelectorAll('#filters input[type=checkbox]');
+      const activeTags = Array.from(checks).filter(c => c.checked).map(c => c.value);
+      cy.nodes().forEach(n => {
+        const nodeTags = tags[n.id()] || [];
+        const visible = nodeTags.some(tag => activeTags.includes(tag));
+        n.style('display', visible ? 'element' : 'none');
+      });
+      cy.edges().forEach(e => {
+        const s = cy.getElementById(e.source().id());
+        const t = cy.getElementById(e.target().id());
+        e.style('display', (s.style('display') !== 'none' && t.style('display') !== 'none') ? 'element' : 'none');
+      });
+    }
+
+    function connectByTagSimilarity() {
+      const nodeIds = cy.nodes().map(n => n.id());
+      for (let i = 0; i < nodeIds.length; i++) {
+        for (let j = i + 1; j < nodeIds.length; j++) {
+          const a = nodeIds[i], b = nodeIds[j];
+          const tA = tags[a] || [], tB = tags[b] || [];
+          const union = new Set([...tA, ...tB]);
+          const intersect = tA.filter(t => tB.includes(t));
+          const sim = 1 - intersect.length / union.size;
+          const edgeId = `e_${a}_${b}`;
+          if (!cy.getElementById(edgeId).length && intersect.length > 0) {
+            cy.add({ data: { id: edgeId, source: a, target: b, weight: sim } });
+          }
+        }
+      }
+    }
+  </script>
+</body>
 </html>
