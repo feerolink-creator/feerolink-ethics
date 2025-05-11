@@ -10,7 +10,7 @@
 A structural experiment in human-AI ethical co-design and dignity modeling.
 
 # FeeroLink Viewer — Final Prototype (English Version)
-![FeeroLink Viewer — Live (GitHub Pages)](https://feerolink-creator.github.io/feerolink-ethics/index_en.html)
+![FeeroLink Viewer — Live (GitHub Pages)](https://feerolink-creator.github.io/feerolink-ethics/index.html)
 
 ## Overview
 
