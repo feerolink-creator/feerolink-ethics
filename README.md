@@ -82,16 +82,6 @@ For a deeper understanding of the philosophical foundation of FeeroLink and its 
 
 
 
-## Repository Structure
-
-```
-├── index.html
-├── dignity_layered_structure.json
-├── docs/
-│   ├── dignity_model_en.jpg
-│   └── dignity_model_ja.jpg
-```
-
 ## License
 
 MIT License.
