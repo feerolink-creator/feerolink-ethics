@@ -8,7 +8,7 @@ We believe AI should be aligned not merely with safety but with **dignity**, **r
 
 ## 🔎 Explore
 
-- 🧠 [FeeroLink Viewer — Final Prototype](../index.html)
+- 🧠 [FeeroLink Viewer — Final Prototype](https://feerolink-creator.github.io/feerolink-ethics/index.html)
   Visual Thinking OS for modeling layered ethical structures.
 
 - 📘 [FeeroLog_001 — The Birth of The Asylum and Ethical Engine](./FeeroLog_001_Ethical_Asylum_EN.md)
