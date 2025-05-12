@@ -82,6 +82,9 @@ For a deeper understanding of the philosophical foundation of FeeroLink and its 
 👉 [Read the full document](./docs/FeeroLog_001_Ethical_Asylum_EN.md)
 
 
+📘**FeeroLog_002 — Care Economy and the Token Structure: A Speculative Dialogue**
+
+👉 [Read the full document](./docs/FeeroLog_002_Care_Token_Speculation.md)
 
 ## License
 
