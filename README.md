@@ -91,8 +91,7 @@ For a deeper understanding of the philosophical foundation of FeeroLink and its 
 
 We have prepared a dedicated proposal overview for researchers and collaborators:
 
-📄 [FeeroLink Submission Overview (EN)](./Submission
-/Overview_EN.md)
+📄 [FeeroLink Submission Overview (EN)](./Submission/Overview_EN.md)
 
   A short introductory guide to the philosophy, model, and purpose of FeeroLink.
 
