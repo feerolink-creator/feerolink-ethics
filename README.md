@@ -22,7 +22,7 @@ Below is a hand-drawn visual model representing the multilayered structure requi
 
 ### Dignity Model (English)
 
-![Dignity Model EN](docs/dignity_model_en.jpg)
+![Dignity Model EN](./docs/assets/dignity_model_en.jpg)
 
 **Layer Definitions:**
 
