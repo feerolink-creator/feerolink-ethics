@@ -6,15 +6,29 @@
 > *A one-page introduction to the vision, co-creation process, and ethical structure of FeeroLink.*
 
 
-# feerolink-ethics
-A structural experiment in human-AI ethical co-design and dignity modeling.
-
 # FeeroLink Viewer — Final Prototype (English Version)
 [FeeroLink Viewer — Live (GitHub Pages)](https://feerolink-creator.github.io/feerolink-ethics/index.html)
 
 ## Overview
 
 FeeroLink is a visual thought interface designed to structure, connect, and co-create knowledge across disciplines and perspectives. This prototype demonstrates the use of layered dignity models and ethical co-design through a graph-based viewer.
+
+ 
+## How to Use
+
+1. Launch `index.html` locally.
+2. Load a `.json` structure file (e.g., `dignity_layered_structure.json`).
+3. Filter or interact with nodes by tag, color-coded by structural layer.
+
+## Tags & Colors
+
+* `core` — Red (e.g., Dignity)
+* `values` — Blue (e.g., Freedom, Respect)
+* `supports` — Yellow (e.g., Being Heard)
+* `systems` — Gray (e.g., Law, Education)
+
+# feerolink-ethics
+A structural experiment in human-AI ethical co-design and dignity modeling.
 
 ## Ethical Visualization: Layered Model of Dignity
 
@@ -57,7 +71,7 @@ Below is a hand-drawn visual model representing the multilayered structure requi
 
 Each outer layer supports the inner ones. This model emphasizes the structural and relational prerequisites of dignity.
 
-## 🧭 Project Records and Philosophy
+#### 🧭 Project Records and Philosophy
 
 For a deeper understanding of the philosophical foundation of FeeroLink and its ethical architecture, refer to the design archive below:
 
@@ -67,18 +81,6 @@ For a deeper understanding of the philosophical foundation of FeeroLink and its 
 👉 [Read the full document](./docs/FeeroLog_001_Ethical_Asylum_EN.md)
 
 
-## How to Use
-
-1. Launch `index.html` locally.
-2. Load a `.json` structure file (e.g., `dignity_layered_structure.json`).
-3. Filter or interact with nodes by tag, color-coded by structural layer.
-
-## Tags & Colors
-
-* `core` — Red (e.g., Dignity)
-* `values` — Blue (e.g., Freedom, Respect)
-* `supports` — Yellow (e.g., Being Heard)
-* `systems` — Gray (e.g., Law, Education)
 
 ## Repository Structure
 
