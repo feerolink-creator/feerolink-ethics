@@ -71,7 +71,7 @@ Below is a hand-drawn visual model representing the multilayered structure requi
 
 Each outer layer supports the inner ones. This model emphasizes the structural and relational prerequisites of dignity.
 
-###🧭 Project Records and Philosophy
+##🧭 Project Records and Philosophy
 
 For a deeper understanding of the philosophical foundation of FeeroLink and its ethical architecture, refer to the design archive below:
 
