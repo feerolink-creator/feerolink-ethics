@@ -57,6 +57,16 @@ Below is a hand-drawn visual model representing the multilayered structure requi
 
 Each outer layer supports the inner ones. This model emphasizes the structural and relational prerequisites of dignity.
 
+## 🧭 Project Records and Philosophy
+
+For a deeper understanding of the philosophical foundation of FeeroLink and its ethical architecture, refer to the design archive below:
+
+📘**FeeroLog_001 — The Birth of The Asylum and the Formation of the Ethical Engine**  
+*A foundational dialogue between a human and an AI about care, dignity, and co-design.*
+
+👉 [Read the full document](./docs/FeeroLog_001_Ethical_Asylum_EN.md)
+
+
 ## How to Use
 
 1. Launch `index.html` locally.
