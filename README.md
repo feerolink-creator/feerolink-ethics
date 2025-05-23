@@ -2,6 +2,8 @@
 
 This document outlines a structural ethics framework for AI in a post-crime world, developed through philosophical dialogue between Hirose Tatsuki and ChatGPT. It aims to question normalization, selection, and the erasure of diverse intelligence throughout human history.
 
+📘 [Read the full Markdown version](./FeeroLink_Ethical_Engine_EN.md)
+
 📄 [Read the full document (PDF)](./FeeroLink_Ethical_Engine_EN.pdf)
 
 ### Key Concepts:
