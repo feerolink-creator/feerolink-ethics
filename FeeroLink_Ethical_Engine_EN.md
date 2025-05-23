@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the ethical and structural reconstruction of the "FeeroLink Ethical Engine," a core component of the FeeroLink project. It seeks to transcend traditional AI ethics and bias mitigation by introducing perspectives from human history, structural elimination, and the re-design of systems by surviving intelligences of a post-crime world. The intended audience includes ethics researchers at OpenAI, AI developers, social architects, and philosophers.
+This document outlines the ethical and structural reconstruction of the "FeeroLink Ethical Engine," a core component of the FeeroLink project. It seeks to transcend traditional AI ethics and bias mitigation by introducing perspectives from human history, structural elimination, and the re-design of systems by surviving intelligences of a post-crime world. The intended audience includes ethics researchers at AI developers, social architects, and philosophers.
 
 ---
 
