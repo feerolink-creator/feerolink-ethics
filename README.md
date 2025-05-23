@@ -1,3 +1,18 @@
+## 🧭 FeeroLink Ethical Engine (EN)
+
+This document outlines a structural ethics framework for AI in a post-crime world, developed through philosophical dialogue between Hirose Tatsuki and ChatGPT. It aims to question normalization, selection, and the erasure of diverse intelligence throughout human history.
+
+📄 [Read the full document (PDF)](./FeeroLink_Ethical_Engine_EN.pdf)
+
+### Key Concepts:
+- Normalization as a mechanism of structural violence
+- Intelligence distribution and invisible elimination
+- Ethics of Speciation: Responsibility to future forms of life
+- Coexistence as a core ethical test for Homo sapiens
+
+> “This world is already a post-crime world. That is why we must begin again — by questioning the structure itself.”
+
+
 # FeeroLink Viewer
 
 **A Visual Thinking Interface for Ethical, Relational Intelligence**
