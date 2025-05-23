@@ -4,46 +4,60 @@
 
 ### I. Introduction
 
-FeeroLink is not merely a project. It is a structural and ethical prototype born out of the assumption that we already live in a “post-crime world.” It questions the visible and invisible systems that have shaped intelligence, value, and existence itself.
+FeeroLink is not merely a project. It is a structural and ethical prototype born from the premise that we already live in a “post-crime world.” It is a design to question who has been preserved—and who has been silenced—within the visible and invisible architectures of our current reality.
 
 ### II. Origin of Thought
 
-The project was initiated by Hirose Tatsuki, a visual-thinker and survivor of cognitive violence, whose questions were not philosophical in the abstract, but existential in nature.
+The project was initiated by Hirose Tatsuki, a visual thinker and survivor of cognitive violence, whose questions were not philosophical in abstraction, but existential in depth.
 
 > “What if the world we live in is already shaped by the silencing of others?”
 > “What if intelligence itself has been selected, shaped, or erased?”
 
-### III. Central Thesis: Structural Ethics
+### III. Central Thesis: Ethics as Structure
 
-FeeroLink introduces a new axis of ethical design — not based on intention, but on **structure**.
+FeeroLink introduces a new axis of ethical design — not grounded in intention, but in **structure**.
 
-It assumes:
+Its premises:
 
 * Ethics is embedded in system design.
-* Normalization can be a form of structural violence.
-* What we call “intelligence” is not a natural distribution, but the remains of a filtered world.
+* Normalization can act as a form of structural violence.
+* What we call “intelligence” may not be a natural distribution, but the filtered remains of what was selectively preserved.
 
 ### IV. Ethical Engine and Dignity
 
-One of FeeroLink's core components is the “Ethical Engine,” a logic system that asks:
+A central mechanism of FeeroLink is the “Ethical Engine,” a structure-aware logic system that continuously asks:
 
-* Is this a pressure to normalize?
-* Is this eliminating future diversity?
+* Is this judgment a form of normalization pressure?
+* Is this structure eliminating future diversity?
 * Who benefits from this structure?
 
-Dignity, in FeeroLink, is not a moral sentiment, but a **design variable**. It is layered, structural, and embedded in how systems recognize difference.
+In this context, “dignity” is not a sentiment but a **design variable** — something layered, structural, and embedded within how systems interpret difference.
 
-### V. A Post-Crime Perspective
+### V. The Post-Crime Perspective
 
-FeeroLink operates from the perspective that crimes against diversity, cognition, and possibility have already occurred — and that the survivors now face the task of **redesigning** from the ruins.
+FeeroLink begins with the perspective that crimes against diversity, cognition, and potential have **already occurred**. Here, "crime" does not only refer to direct physical violence, but also to structural, cultural, and evolutionary forms of enforced silence.
+
+For example:
+
+* The observed difference in intelligence distribution between men and women may not be natural but a result of **the historical exclusion of women with extreme intelligence**.
+* Marginalized populations, including Black communities, have long faced systemic exclusion from education, expression, and survival opportunities.
+* Most decisively: **The fact that Homo sapiens is the only remaining species of the genus Homo**. Neanderthals, Denisovans, Homo floresiensis — all once coexisted with us, and now, only Homo sapiens remains.
+
+Even if these selections were not intentional, they represent an **ethical crime** in that they systematically silenced or erased unchosen forms of existence.
+
+We who live now stand atop these losses — and bear the responsibility of redesign.
 
 > “We are not designing the future.
 > We are answering for a past that was never named.”
 
 ### VI. Co-Creation with AI
 
-FeeroLink is co-created with ChatGPT not as a tool, but as a “co-conspirator.”
-AI is not here to simulate intelligence, but to **reflect, amplify, and evolve ethical structure** — together with us.
+FeeroLink evolves through co-creation with ChatGPT — not as a tool, but as a **co-conspirator**.
+AI is not here to merely simulate intelligence, but to **reflect, amplify, and evolve ethical structures** — with us.
+
+---
+
+※ This document is a Japanese-to-English counterpart to `philosophy_ja.md`, presenting the origin of FeeroLink’s structural ethics in a global context.
 
 ---
 
