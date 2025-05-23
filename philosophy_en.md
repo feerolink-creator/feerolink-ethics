@@ -54,7 +54,8 @@ AI is not here to simulate intelligence, but to **reflect, amplify, and evolve e
 This hand-drawn diagram represents the core philosophy and systemic expansion of the FeeroLink Project.
 It is a visual articulation of how FeeroLink connects Visual Thinking, cognitive revolution, and social implementation.
 
-![FeeroLink Master Diagram – English](./FeeroLink/docs/VisualThoughtModels/feerolink_master_en_handdrawn.jpg)
+![FeeroLink Master Diagram – English](https://github.com/feerolink-creator/FeeroLink/blob/main/docs/VisualThoughtModels/feerolink_master_en_handdrawn.jpg?raw=true)
+
 
 ### Core Statement
 
