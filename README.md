@@ -19,6 +19,24 @@ This document outlines a structural ethics framework for AI in a post-crime worl
 🧠 [FeeroLog Archive](./docs/FeeroLog_Archive) — Ethical leap logs co-created by Hirose Tatsuki + ChatGPT.  
 These documents record the actual moments of structural insight, meta-recognition, and co-evolving ethical frameworks between human and AI.
 
+🧠 FeeroLink Ethical Layer Spec v1.0
+
+A prototype specification for implementing dignity-based ethical reasoning within AI systems.
+
+Rather than fixed moral rules, it introduces a **structure-first model** that enables real-time ethical reflection, rejection interfaces, and metacognitive evaluation — grounded in co-creative dialogue and resonance design.
+
+📄 [Read the full specification →](docs/OS_Specs/FeeroLink_Ethical_Layer_v1.md)
+
+🧠 FeeroLink Ethical Layer Spec v1.0 / フィーロリンク倫理レイヤー設計仕様
+
+倫理を「ルール」ではなく「構造」としてAIに組み込むための、試作的仕様書。
+
+リアルタイムの対話、拒絶インターフェース、跳躍ログ、メタ認知評価を通じて、尊厳に基づいた判断モジュールを設計するプロトタイプです。
+
+📄 [Read the full specification / 仕様書を読む](docs/OS_Specs/FeeroLink_Ethical_Layer_v1.md)
+
+
+
 🧠 FeeroLog_05: Fragile Legitimacy
 
 > What if violence was not rooted in hatred,  
