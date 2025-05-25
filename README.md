@@ -32,9 +32,6 @@ A structural ethics manifesto challenging intelligence distribution as a natural
 
 ![Distribution as Aftermath](./docs/FeeroLog_Archive/Distribution_as_Aftermath.png)
 
-📄 [FeeroLog_07 (EN)](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_EN.md)  
-📄 [FeeroLog_07（JP）](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_JP.md)
-
 This FeeroLog examines intelligence not as a fixed hierarchy,  
 but as a distribution sculpted by systemic selection and ethical blind spots.  
 It proposes new ethical modules to be implemented into the FeeroLink Engine,  
@@ -43,7 +40,8 @@ and poses a core question:
 > “Not all that disappeared was meant to disappear.”
 
 
-# FeeroLink Viewer
+
+## FeeroLink Viewer
 
 **A Visual Thinking Interface for Ethical, Relational Intelligence**
 
