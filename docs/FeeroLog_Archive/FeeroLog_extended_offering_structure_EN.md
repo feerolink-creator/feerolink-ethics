@@ -173,5 +173,5 @@ Ethical superiority is not in receiving but in the will to reject.
 For contextual understanding of the Yamayuri Incident,
 please refer to the structural overview below:
 
-📄 ![Yamayuri Incident: Ethical and Structural Overview](./docs/FeeroLog_Archive/Yamayuri_Outline_EN.md)
+📄[Yamayuri Incident: Ethical and Structural Overview](./docs/FeeroLog_Archive/Yamayuri_Outline_EN.md)
 
