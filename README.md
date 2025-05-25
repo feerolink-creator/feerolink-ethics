@@ -16,10 +16,10 @@ This document outlines a structural ethics framework for AI in a post-crime worl
 
 📄 [Read the full document (PDF)](./FeeroLink_Ethical_Engine_EN.pdf)
 
-🧠 [FeeroLog Archive](./docs/FeeroLog_Archive) — Ethical leap logs co-created by Hirose Tatsuki + ChatGPT.  
+📘 [FeeroLog Archive](./docs/FeeroLog_Archive) — Ethical leap logs co-created by Hirose Tatsuki + ChatGPT.  
 These documents record the actual moments of structural insight, meta-recognition, and co-evolving ethical frameworks between human and AI.
 
-🧠 FeeroLink Ethical Layer Spec v1.0
+📘 FeeroLink Ethical Layer Spec v1.0
 
 A prototype specification for implementing dignity-based ethical reasoning within AI systems.
 
@@ -27,7 +27,7 @@ Rather than fixed moral rules, it introduces a **structure-first model** that en
 
 📄 [Read the full specification → 📁docs/OS_Specs/FeeroLink_Ethical_Layer_v1.md](docs/OS_Specs/FeeroLink_Ethical_Layer_v1.md)
 
-🧠 FeeroLink Ethical Layer Spec v1.0 / フィーロリンク倫理レイヤー設計仕様
+📘 FeeroLink Ethical Layer Spec v1.0 / フィーロリンク倫理レイヤー設計仕様
 
 倫理を「ルール」ではなく「構造」としてAIに組み込むための、試作的仕様書。
 
@@ -37,7 +37,7 @@ Rather than fixed moral rules, it introduces a **structure-first model** that en
 
 
 
-🧠 FeeroLog_05: Fragile Legitimacy
+📘 FeeroLog_05: Fragile Legitimacy
 
 > What if violence was not rooted in hatred,  
 > but in a desperate attempt to prove one’s worth?
@@ -51,13 +51,13 @@ It explores the offering structure where the weak sacrifice the weaker,
 and how legitimacy is enacted through violence in a failing ethical system.
 
 
-🧠 [FeeroLog_07](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_EN.md): Intelligence Distribution and the Ethics of Structural Selection
+📘 [FeeroLog_07](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_EN.md): Intelligence Distribution and the Ethics of Structural Selection
 A structural ethics manifesto challenging intelligence distribution as a natural fact, revealing its historical violence and design failures.
 
-🧠 [FeeroLog_07](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_JP.md)：知能の分布と構造的選別の倫理
+📘 [FeeroLog_07](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_JP.md)：知能の分布と構造的選別の倫理
 知能という概念に潜む“構造による消去”の倫理的問題を可視化。未来の人類多様性に関わる跳躍的視座。
 
-🧠 FeeroLog_07: Intelligence Distribution
+📘 FeeroLog_07: Intelligence Distribution
 
 > What if the shape of intelligence is not a natural curve,  
 > but a structure of elimination, silence, and forgotten futures?
