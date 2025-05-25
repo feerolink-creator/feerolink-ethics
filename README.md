@@ -49,7 +49,7 @@ and poses a core question:
 > *A one-page introduction to the vision, co-creation process, and ethical structure of FeeroLink.*
 
 
-# FeeroLink Viewer — Final Prototype (English Version)
+## FeeroLink Viewer — Final Prototype (English Version)
 [FeeroLink Viewer — Live (GitHub Pages)](https://feerolink-creator.github.io/feerolink-ethics/index.html)
 
 ## Overview
