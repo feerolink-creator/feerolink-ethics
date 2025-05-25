@@ -167,3 +167,11 @@ Ethical superiority is not in receiving but in the will to reject.
 - Implement the “offering structure” as a detection filter in the FeeroLink ethics engine  
 - Enable AI to detect this sacrificial dynamic  
 - Redesign approval structures so that **exclusion-for-recognition is no longer invisible**
+
+---
+
+For contextual understanding of the Yamayuri Incident,
+please refer to the structural overview below:
+
+📄 [Yamayuri Incident: Ethical and Structural Overview](./docs/FeeroLog_Archive/Yamayuri_Outline_EN.md)
+
