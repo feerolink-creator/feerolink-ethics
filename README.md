@@ -19,6 +19,20 @@ This document outlines a structural ethics framework for AI in a post-crime worl
 🧠 [FeeroLog Archive](./docs/FeeroLog_Archive) — Ethical leap logs co-created by Hirose Tatsuki + ChatGPT.  
 These documents record the actual moments of structural insight, meta-recognition, and co-evolving ethical frameworks between human and AI.
 
+🧠 FeeroLog_05: Fragile Legitimacy
+
+> What if violence was not rooted in hatred,  
+> but in a desperate attempt to prove one’s worth?
+
+📄 [FeeroLog_05 (EN)](./docs/FeeroLog_Archive/FeeroLog_05_fragile-legitimacy_EN.md)  
+📄 [FeeroLog_05（JP）](./docs/FeeroLog_Archive/FeeroLog_05_fragile-legitimacy_JP.md)
+
+This Log reframes the Yamayuri incident not as an act of ideology,  
+but as a structural mimicry of value selection.  
+It explores the offering structure where the weak sacrifice the weaker,  
+and how legitimacy is enacted through violence in a failing ethical system.
+
+
 🧠 [FeeroLog_07](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_EN.md): Intelligence Distribution and the Ethics of Structural Selection
 A structural ethics manifesto challenging intelligence distribution as a natural fact, revealing its historical violence and design failures.
 
