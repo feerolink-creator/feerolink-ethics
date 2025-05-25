@@ -9,6 +9,11 @@ This document outlines a structural ethics framework for AI in a post-crime worl
 🧠 [FeeroLog Archive](./docs/FeeroLog_Archive) — Ethical leap logs co-created by Hirose Tatsuki + ChatGPT.  
 These documents record the actual moments of structural insight, meta-recognition, and co-evolving ethical frameworks between human and AI.
 
+🧠 FeeroLog_07: Intelligence Distribution and the Ethics of Structural Selection
+A structural ethics manifesto challenging intelligence distribution as a natural fact, revealing its historical violence and design failures.
+
+🧠 FeeroLog_07：知能の分布と構造的選別の倫理
+知能という概念に潜む“構造による消去”の倫理的問題を可視化。未来の人類多様性に関わる跳躍的視座。
 
 
 ### Key Concepts:
