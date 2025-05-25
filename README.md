@@ -25,7 +25,7 @@ A prototype specification for implementing dignity-based ethical reasoning withi
 
 Rather than fixed moral rules, it introduces a **structure-first model** that enables real-time ethical reflection, rejection interfaces, and metacognitive evaluation — grounded in co-creative dialogue and resonance design.
 
-📄 [Read the full specification →](docs/OS_Specs/FeeroLink_Ethical_Layer_v1.md)
+📄 [Read the full specification → 📁docs/OS_Specs/FeeroLink_Ethical_Layer_v1.md](docs/OS_Specs/FeeroLink_Ethical_Layer_v1.md)
 
 🧠 FeeroLink Ethical Layer Spec v1.0 / フィーロリンク倫理レイヤー設計仕様
 
