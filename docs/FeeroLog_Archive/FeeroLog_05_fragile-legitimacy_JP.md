@@ -68,5 +68,5 @@ FeeroLinkはこの瞬間を、構造が発するシグナルとして記録す�
 
 ## ◆ 次の跳躍：
 
-📄 [FeeroLog\_06：水平排除構造](./FeeroLog_Archive/FeeroLog_06_horizontal-elimination_EN.md)
-📄 [やまゆり園事件：構造概要](./FeeroLog_Archive/Yamayuri_Outline_EN.md)
+📄 [FeeroLog\_06：水平排除構造](./FeeroLog_06_horizontal-elimination_EN.md)
+📄 [やまゆり園事件：構造概要](./Yamayuri_Outline_EN.md)
