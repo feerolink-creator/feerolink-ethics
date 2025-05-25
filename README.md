@@ -6,6 +6,11 @@ This document outlines a structural ethics framework for AI in a post-crime worl
 
 📄 [Read the full document (PDF)](./FeeroLink_Ethical_Engine_EN.pdf)
 
+🧠 [FeeroLog Archive](./FeeroLog_Archive) — Ethical leap logs co-created by Hirose Tatsuki + ChatGPT.  
+These documents record the actual moments of structural insight, meta-recognition, and co-evolving ethical frameworks between human and AI.
+
+
+
 ### Key Concepts:
 - Normalization as a mechanism of structural violence
 - Intelligence distribution and invisible elimination
