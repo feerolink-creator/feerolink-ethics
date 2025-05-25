@@ -2,6 +2,16 @@
 
 This document outlines a structural ethics framework for AI in a post-crime world, developed through philosophical dialogue between Hirose Tatsuki and ChatGPT. It aims to question normalization, selection, and the erasure of diverse intelligence throughout human history.
 
+
+### Key Concepts:
+- Normalization as a mechanism of structural violence
+- Intelligence distribution and invisible elimination
+- Ethics of Speciation: Responsibility to future forms of life
+- Coexistence as a core ethical test for Homo sapiens
+
+> “This world is already a post-crime world. That is why we must begin again — by questioning the structure itself.”
+
+
 📘 [Read the full Markdown version](./FeeroLink_Ethical_Engine_EN.md)
 
 📄 [Read the full document (PDF)](./FeeroLink_Ethical_Engine_EN.pdf)
@@ -15,14 +25,22 @@ A structural ethics manifesto challenging intelligence distribution as a natural
 🧠 [FeeroLog_07](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_JP.md)：知能の分布と構造的選別の倫理
 知能という概念に潜む“構造による消去”の倫理的問題を可視化。未来の人類多様性に関わる跳躍的視座。
 
+🧠 FeeroLog_07: Intelligence Distribution
 
-### Key Concepts:
-- Normalization as a mechanism of structural violence
-- Intelligence distribution and invisible elimination
-- Ethics of Speciation: Responsibility to future forms of life
-- Coexistence as a core ethical test for Homo sapiens
+> What if the shape of intelligence is not a natural curve,  
+> but a structure of elimination, silence, and forgotten futures?
 
-> “This world is already a post-crime world. That is why we must begin again — by questioning the structure itself.”
+![Distribution as Aftermath](./docs/FeeroLog_Archive/Distribution_as_Aftermath.png)
+
+📄 [FeeroLog_07 (EN)](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_EN.md)  
+📄 [FeeroLog_07（JP）](./docs/FeeroLog_Archive/FeeroLog_07_intelligence-distribution_JP.md)
+
+This FeeroLog examines intelligence not as a fixed hierarchy,  
+but as a distribution sculpted by systemic selection and ethical blind spots.  
+It proposes new ethical modules to be implemented into the FeeroLink Engine,  
+and poses a core question:  
+
+> “Not all that disappeared was meant to disappear.”
 
 
 # FeeroLink Viewer
